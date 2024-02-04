@@ -40,7 +40,7 @@ public class Main {
             }
             System.out.println();
 
-            // Вывести все методы классов:
+            // Все методы классов
             Method[] methods = animalClass.getDeclaredMethods();
             for (Method method : methods) {
                 System.out.println("Method: " + method.getName() +
@@ -49,7 +49,7 @@ public class Main {
             }
             System.out.println();
 
-            // Вызов метода "makeSound()":
+            // Метод "makeSound()"
             Method makeSoundMethod;
             try {
                 makeSoundMethod = animalClass.getDeclaredMethod("makeSound");
